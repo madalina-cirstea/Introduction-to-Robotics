@@ -1,2 +1,2 @@
-# Introduction-to-Robotics
-Repostory for Introduction-to-Robotics course
+# IntroductionToRobotics
+Repository for IntroductionToRobotics course containing all projects and laboratory homeworks made during the course.
