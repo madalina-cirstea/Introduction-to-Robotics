@@ -2,27 +2,27 @@ const int potPinRed = A0;
 const int potPinGreen = A1;
 const int potPinBlue = A2;
 
-const int ledRed = 9;
-const int ledGreen = 10;
-const int ledBlue = 11;
+const int ledPinRed = 9;
+const int ledPinGreen = 10;
+const int ledPinBlue = 11;
 
 int potValueRed = 0;
 int potValueGreen = 0;
 int potValueBlue = 0;
 
-int redValue = 0;
-int greenValue = 0;
-int blueValue = 0;
+int ledValueRed = 0;
+int ledValueGreen = 0;
+int ledValueBlue = 0;
 
 void setup() {
-  pinMode(potPinRed,INPUT);
-  pinMode(potPinGreen,INPUT);
-  pinMode(potPinBlue,INPUT);
+  pinMode(potPinRed, INPUT);
+  pinMode(potPinGreen, INPUT);
+  pinMode(potPinBlue, INPUT);
 
-  pinMode(ledRed,OUTPUT);
-  pinMode(ledGreen,OUTPUT);
-  pinMode(ledBlue,OUTPUT);
-  
+  pinMode(ledPinRed, OUTPUT);
+  pinMode(ledPinGreen, OUTPUT);
+  pinMode(ledPinBlue, OUTPUT);
+
   Serial.begin(9600);
 }
 
@@ -31,21 +31,26 @@ void loop() {
   potValueGreen = analogRead(potPinGreen);
   potValueBlue = analogRead(potPinBlue);
 
-  redValue = map(potValueRed, 0, 1023, 0, 255);
-  greenValue = map(potValueGreen, 0, 1023, 0, 255);
-  blueValue = map(potValueBlue, 0, 1023, 0, 255);
+  ledValueRed = map(potValueRed, 0, 1023, 0, 255);
+  ledValueGreen = map(potValueGreen, 0, 1023, 0, 255);
+  ledValueBlue = map(potValueBlue, 0, 1023, 0, 255);
 
+  printLedValues(ledValueRed, ledValueGreen, ledValueBlue);
+
+  setLedColor(ledValueRed, ledValueGreen, ledValueBlue);
+}
+
+void printLedValues(int red, int green, int blue) {
   Serial.print("Red: ");
-  Serial.print(redValue);
+  Serial.print(red);
   Serial.print(" Green: ");
-  Serial.print(greenValue);
+  Serial.print(green);
   Serial.print(" Blue: ");
-  Serial.println(blueValue);
+  Serial.println(blue);
+}
 
-  analogWrite(ledRed,redValue);
-  analogWrite(ledGreen,greenValue);
-  analogWrite(ledBlue,blueValue);
-
-  delay(10);
-
+void setLedColor(int red, int green, int blue) {
+  analogWrite(ledPinRed, red);
+  analogWrite(ledPinGreen, green);
+  analogWrite(ledPinBlue, blue);
 }
