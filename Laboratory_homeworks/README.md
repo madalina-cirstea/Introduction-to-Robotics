@@ -27,14 +27,14 @@ Main menu structure:
     - Score: level * 3
 - HiScore: 
     - Initially, we have 0
-    - Update it when the game is done. Highest possible score should be achieved by starting at a higher level. The value is saved in eeprom (after restarting the board, the high score remains the same)
+    - Updated when the game is done. Highest possible score is achieved by starting at a higher level. The value is saved in eeprom (after restarting the board, the high score remains the same)
 - Settings:
     - StartLevel: set the starting level value.
     - Name: displays the name inserted in the serial monitor.
 
 Navigation:
-- Scrolling through the main menu is done with the x-axis. The arrow “>” indicates the current option. The joystick moves the arrow indicating/selecting the category in which you want to enter. Entering a category is done by pressing the button (when pressing the button, you enter the option with the arrow next to it).
-- Scrolling through the Settings menu is done with the y-axis. Entering a category (Start level/ Name) is done by pressing the button. The starting level is incremented/ decremented using the y-axis.
+- Scrolling through the main menu is done with the X-axis. The arrow “>” indicates the current option. The joystick moves the arrow indicating/selecting the category in which you want to enter. Entering a category is done by pressing the button (when pressing the button, you enter the option with the arrow next to it).
+- Scrolling through the Settings menu is done with the Y-axis. Entering a category (Start level/ Name) is done by pressing the button. The starting level is incremented/ decremented using the Y-axis. Exit the Settings menu is done by moving the joystick to the left on the X-axis
 
 
 
