@@ -21,14 +21,14 @@ There are 3 possible states regarding decimal point: locked in (on) / selected -
 **LCDmenuJoystickControl**: a game menu created on a LCD display that can be controlled by a joystick. 
 
 **Structure**:
-- Play: it will show 3 things on the same screen:
+- **Play**: it will show 3 things on the same screen:
     - Lives: 3
     - Level: = startingLevelValue, set up in settings (default is 0). Level gets incremented by 1 every 5 seconds (the score should update accordingly). After 10 seconds, the game is over and "Game over! Press JS to exit" message is displayed on the screen.
     - Score: level * 3
-- HiScore: 
+- **HiScore**: 
     - Initially, we have 0
     - Updated when the game is done. Highest possible score is achieved by starting at a higher level. The value is saved in eeprom (after restarting the board, the high score remains the same)
-- Settings:
+- **Settings**:
     - StartLevel: set the starting level value.
     - Name: displays the name inserted in the serial monitor.
 
@@ -36,7 +36,7 @@ There are 3 possible states regarding decimal point: locked in (on) / selected -
 - Scrolling through the main menu is done with the X-axis. The arrow “>” indicates the current option. The joystick moves the arrow indicating/selecting the category in which you want to enter. Entering a category is done by pressing the button (when pressing the button, you enter the option with the arrow next to it).
 - Scrolling through the Settings menu is done with the Y-axis. Entering a category (Start level/ Name) is done by pressing the button. The starting level is incremented/ decremented using the Y-axis. Exit the Settings menu is done by moving the joystick to the left on the X-axis.
 
-https://drive.google.com/file/d/1Wx_WPUxLIpQ3sLM0L44xXsxsg2a3S_bw/view?usp=sharing
+**Link**: https://drive.google.com/file/d/1Wx_WPUxLIpQ3sLM0L44xXsxsg2a3S_bw/view?usp=sharing
 
 
 
