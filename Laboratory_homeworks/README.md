@@ -6,7 +6,7 @@
 # 2nd Homework
 **knockDetector**: Read the value of a piezo buzzer and if it is higher than a specified threshold, start a buzzer sound (using a different buzzer) which stops at the press of a pushbutton.
 
-# 3th Homework
+# 3rd Homework
 **4DigitDisplayJoystickControl**: Individually controlling each digit of a 4 digit 7-segment display with a joystick: 
 - Using the X-axis, cycle through the digits and chose which one to modify (blink the DP led of the current position).
 - Press the button to lock on the selected digit (keep the DP lit while selected digit is locked).
