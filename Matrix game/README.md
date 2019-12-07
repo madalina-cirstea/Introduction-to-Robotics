@@ -55,7 +55,7 @@ _To add only if time allows: unbreakable bricks and bricks that can only be dest
 
 - LED-s (for animation purposes)
 
-- _To add if any idea comes and time allows: 7 segment display (displaying clock time or playing time)
+- _To add if any idea comes and time allows: 7 segment display (displaying clock time or playing time)_
 
 
 ## How to play instructions
