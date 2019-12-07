@@ -28,13 +28,10 @@ _To add only if time allows: unbreakable bricks and bricks that can only be dest
 
 -  **Levels**: 4 levels with different bricks layouts
 
-![Level 1](./materials/level.jpg)
-
-![Level 2](./materials/leve2.png)
-
-![Level 3](./materials/leve3.png)
-
-![Level 4](./materials/leve4.png)
+![level1](https://user-images.githubusercontent.com/56949829/70380908-0ed05f80-194b-11ea-8f8a-7c31ebbd64b5.jpg)
+![level2](https://user-images.githubusercontent.com/56949829/70380951-9918c380-194b-11ea-8a85-8cbd7294dd19.png)
+![level3](https://user-images.githubusercontent.com/56949829/70380976-d54c2400-194b-11ea-8012-7a39f024a906.png)
+![level4](https://user-images.githubusercontent.com/56949829/70380984-f44ab600-194b-11ea-854f-59494bf9604d.png)
 
 -  **Lives**:  at the beginning of every level the number of lives is 3. The number is decreased with one when the paddle misses the bouncing ball and it is increased with one if a rescue power up reaches the paddle. 
 
