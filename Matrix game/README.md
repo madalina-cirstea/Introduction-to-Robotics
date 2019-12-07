@@ -1,8 +1,8 @@
-# Brick Breaker X-mas edition - Matrix game -
+# Brick Breaker X-mas edition - Matrix game - @UnibucRobotics
 
 ## Description
 
-**Brick Breaker** is a game in which the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. The paddle may move horizontally and is controlled with a joystick. The player gets 3 lives to start with. When the ball is bounced up by the paddle, it will hit a brick and then the brick is gone. After that the ball will come down; if the paddle misses the ball, a life is lost. When all the bricks have been destroyed, the player advances to a new, harder level. If all lives are lost, the game is over.
+**Brick Breaker** is a game in which the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. The paddle moves horizontally and is controlled with a joystick. The player gets 3 lives to start with. When the ball is bounced up by the paddle, it will hit a brick and then the brick is gone. After that the ball will come down; if the paddle misses the ball, a life is lost. When all the bricks have been destroyed, the player advances to a new, harder level. If all lives are lost, the game is over.
 
 >  **Power ups** implemented in X-mas edition: *the magnet* (the ball remains on the paddle and is released when the player press a special button), *the paddle grow*, *the fire laser* (the player can shoot flaming fireballs), the ball multiplication (the player can play with more than one ball), *rescue* (increase the number of lives).
 
