@@ -51,11 +51,11 @@ _To add only if time allows: unbreakable bricks and bricks that can only be dest
 
 - 3 buttons: pause button, release button, shoot button
 
-- buzzers for music
+- buzzers (for music)
 
-- LED-s
+- LED-s (for animation purposes)
 
-- to add if any idea comes: 7 segment displays, more joysticks
+- _To add if any idea comes and time allows: 7 segment display (displaying clock time or playing time)
 
 
 ## How to play instructions
