@@ -62,12 +62,16 @@ Before playing, make sure that you entered the Settings menu and set your name a
 After all settings have been made, the game can start. Use the joystick to move the paddle accordingly. Note that some bricks are special ones which, once destroyed, release a special power (a blinking ball with a power up associated). If you catch one of these power ups with the paddle you can either shoot flaming balls, play with more bouncing balls or do something else depending on the special atribut you obtained. Moreover, each power up obtained lasts 10 seconds and adds 10 more points to the score.
 > Power ups that need additional control:
 - *the magnet*: the ball remains on the paddle and is released only by pressing the **release button**
-- *the fire laser*: the player can shoot flaming fireballs by pressing the **shoot button"
-_To add only if time allows: when a special birck is distroyed and a power up is released, the type of the power will be displayed on the LCD so that the player will know what kind of power is coming (ex: "magnet", "rescue") and could only choose those powers he or she likes most_
+- *the fire laser*: the player can shoot flaming fireballs by pressing the **shoot button**
+
+_To add only if time allows: when a special birck is distroyed and a power up is released, the type of the power will be displayed on the LCD so that the player will know what kind of power is coming (ex: "magnet", "rescue") and could only choose those powers he or she likes most._
 
 Additional features implemented: by pressing the **pause button** you can pause the game and, by another pressing,  you can resume it whenever you feel like it. 
 
 ## Game logic
+
+![gameLogic](https://user-images.githubusercontent.com/56949829/70388306-8688a380-19b8-11ea-8ad8-0fc4dc15ab9a.png)
+
 
 ```mermaid
 
@@ -77,13 +81,13 @@ A{Play} -- Pause Button --> B(Wait)
 B -- Pause Button --> A
 
 A -- Lifes = 0--> C(Game over)
-C --> G(Continue?)
-G -- No --> D(Exit)
-G -- Yes --> E(Try again)
-E --> F(Settings)
+C --> I(Try again?)
+I -- Yes --> F(Settings)
+I -- No --> D(Exit)
 F --> A
 
 A -- End of level --> G(Continue?)
+G(Continue?) -- No --> D
 G -- Yes --> H(Next level)
 H --> A
 
