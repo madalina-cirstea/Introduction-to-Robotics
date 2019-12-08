@@ -8,6 +8,9 @@
 
 _To add only if time allows: unbreakable bricks and bricks that can only be destroyed by a number of hits_
 
+
+![LEDmatrix](https://user-images.githubusercontent.com/56949829/70387377-52f44c00-19ad-11ea-9e6b-c0083fc9a457.gif)
+
 https://drive.google.com/file/d/1uuw8vygwvzmr7yFjiixv6Y2451NR1eML/view?usp=sharing
 
 ## Meeting the requirements
