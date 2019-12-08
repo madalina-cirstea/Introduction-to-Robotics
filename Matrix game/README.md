@@ -14,12 +14,12 @@ _To add only if time allows: unbreakable bricks and bricks that can only be dest
 
 ## Meeting the requirements
 
-**Score**: initially the score is 0 and it increases with 5 for every brick destroyed
+**Score**: initially the score is 0 and it increases with 5 for every brick destroyed.
 
 
 **Progress in difficulty**:
 
--  *level difficulty*: the complexity of the game increases from one level to another as the layout of the bricks changes
+-  *level difficulty*: the complexity of the game increases from one level to another as the layout of the bricks changes.
 
 -  *speed increase*: transition to a faster speed occurs after the ball makes a certain number of bounces off the bricks and walls until the max speed is reached. If the player loses a life, the cycle will repeat itself: the ball will start slow, then speed up.
 
