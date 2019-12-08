@@ -5,7 +5,6 @@
 **Brick Breaker** is a game in which the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. The paddle moves horizontally and is controlled with a joystick. The player gets 3 lives to start with. When the ball is bounced up by the paddle, it will hit a brick and then the brick is gone. After that the ball will come down; if the paddle misses the ball, a life is lost. When all the bricks have been destroyed, the player advances to a new, harder level. If all lives are lost, the game is over.
 
 >  **Power ups** implemented in X-mas edition: *the magnet* (the ball remains on the paddle and is released when the player press a special button), *the paddle grow*, *the fire laser* (the player can shoot flaming fireballs), the ball multiplication (the player can play with more than one ball), *rescue* (increase the number of lives).
-
 _To add only if time allows: unbreakable bricks and bricks that can only be destroyed by a number of hits_
 
 
@@ -14,8 +13,7 @@ _To add only if time allows: unbreakable bricks and bricks that can only be dest
 
 ## Meeting the requirements
 
-**Score**: initially the score is 0 and it increases with 5 for every brick destroyed.
-
+**Score**: initially the score is 0 and it increases with 5 for every brick destroyed. In addition, each power up obtained lasts 10 seconds and adds 10 more points to the score.
 
 **Progress in difficulty**:
 
@@ -54,12 +52,20 @@ _To add only if time allows: unbreakable bricks and bricks that can only be dest
 
 - LED-s (for animation purposes)
 
-- _To add if any idea comes and time allows: 7 segment display (displaying clock time or playing time)_
+- _To add if any idea comes and time allows: restart level button, 7 segment display (displaying clock time or playing time)_
 
 
 ## How to play instructions
 
-  
+Before playing, make sure that you entered the Settings menu and set your name accordingly (otherwise you will be just another "anonymous"). You can also chose the starting level, but take note that the score associated with the levels you passed will be 0 and this can reduce your chances to obtain a better score and, consequently, to do a high score. 
+
+After all settings have been made, the game can start. Use the joystick to move the paddle accordingly. Note that some bricks are special ones which, once destroyed, release a special power (a blinking ball with a power up associated). If you catch one of these power ups with the paddle you can either shoot flaming balls, play with more bouncing balls or do something else depending on the special atribut you obtained. Moreover, each power up obtained lasts 10 seconds and adds 10 more points to the score.
+> Power ups that need additional control:
+- *the magnet*: the ball remains on the paddle and is released only by pressing the **release button**
+- *the fire laser*: the player can shoot flaming fireballs by pressing the **shoot button"
+_To add only if time allows: when a special birck is distroyed and a power up is released, the type of the power will be displayed on the LCD so that the player will know what kind of power is coming (ex: "magnet", "rescue") and could only choose those powers he or she likes most_
+
+Additional features implemented: by pressing the **pause button** you can pause the game and, by another pressing,  you can resume it whenever you feel like it. 
 
 ## Game logic
 
