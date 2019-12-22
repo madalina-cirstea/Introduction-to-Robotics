@@ -4,10 +4,9 @@
 
 **Brick Breaker** is a game in which the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. The paddle moves horizontally and is controlled with a joystick. The player gets 3 lives to start with. When the ball is bounced up by the paddle, it will hit a brick and then the brick is gone. After that the ball will come down; if the paddle misses the ball, a life is lost. When all the bricks have been destroyed, the player advances to a new, harder level. If all lives are lost, the game is over.
 
->  **Power ups** implemented in X-mas edition: *the fire laser* (the player can shoot flaming fireballs using the joystick).
+>  **Power ups** implemented in X-mas edition: *the fire laser* (the player can shoot flaming fireballs using the press button of the joystick).
 
-
-![LEDmatrix](https://user-images.githubusercontent.com/56949829/70387377-52f44c00-19ad-11ea-9e6b-c0083fc9a457.gif)
+![demo](https://user-images.githubusercontent.com/56949829/71327547-905eea80-2512-11ea-98b8-d528d649f519.gif)
 
 
 ## Meeting the requirements
@@ -47,9 +46,9 @@
 
 ## How to play instructions
 
-Before playing, make sure that you entered the Settings menu and set your name accordingly (otherwise you will be just another "anonim"). You can also chose the starting level, but take note that the score associated with the levels you passed will be 0 and this can reduce your chances to obtain a better score and, consequently, to do a high score. 
+Before playing, make sure that you entered the Settings menu and set your name accordingly (otherwise you will be just another "ANONIM"). You can also chose the starting level, but take note that the score associated with the levels you passed will be 0 and this can reduce your chances to obtain a better score and, consequently, to do a high score. 
 
-After all settings have been made, the game can start. Use the joystick to move the paddle accordingly. You can also shoot flaming fireballs by pressing the button of the joystick, but be careful not to kill yourself.
+After all settings have been made, the game can start. Use the Ox axis of the joystick to move the paddle to the left or to the right. You can also shoot flaming fireballs by pressing the button of the joystick, but be careful not to kill yourself.
 
 ## Game logic
 
@@ -77,5 +76,7 @@ H --> A
 ```
 
 ## Picture
+![brickBreaker](https://user-images.githubusercontent.com/56949829/71327257-f184bf00-250e-11ea-8c19-bbfd4d69af88.jpg)
 
 ## Demo video
+https://drive.google.com/open?id=1XPiIzgEWxzICQadjbLNseWzjOsS-5UtC
