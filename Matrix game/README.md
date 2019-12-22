@@ -17,7 +17,7 @@
 
 -  *level difficulty*: the complexity of the game increases from one level to another as the layout of the bricks changes.
 
--  *speed increase*: transition to a faster speed occurs after a number of balls were destroyed (multiple of 5) until the max speed is reached.
+-  *speed increase*: transition to a faster speed occurs after a number of bricks were destroyed (multiple of 5) until the max speed is reached.
   
 **2 requirements of choice**:
 
@@ -51,29 +51,7 @@ Before playing, make sure that you entered the Settings menu and set your name a
 After all settings have been made, the game can start. Use the Ox axis of the joystick to move the paddle to the left or to the right. You can also shoot flaming fireballs by pressing the button of the joystick, but be careful not to kill yourself.
 
 ## Game logic
-
-![gameLogic](https://user-images.githubusercontent.com/56949829/70388306-8688a380-19b8-11ea-8ad8-0fc4dc15ab9a.png)
-
-
-```mermaid
-
-graph LR
-
-A{Play} -- Pause Button --> B(Wait)
-B -- Pause Button --> A
-
-A -- Lifes = 0--> C(Game over)
-C --> I(Try again?)
-I -- Yes --> F(Settings)
-I -- No --> D(Exit)
-F --> A
-
-A -- End of level --> G(Continue?)
-G(Continue?) -- No --> D
-G -- Yes --> H(Next level)
-H --> A
-
-```
+![schematics](https://user-images.githubusercontent.com/56949829/71327709-4f67d580-2514-11ea-8ac1-d5eb7f6db0a8.png)
 
 ## Picture
 ![brickBreaker](https://user-images.githubusercontent.com/56949829/71327257-f184bf00-250e-11ea-8c19-bbfd4d69af88.jpg)
