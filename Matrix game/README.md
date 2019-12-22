@@ -7,8 +7,6 @@
 >  **Power ups** implemented in X-mas edition: *the fire laser* (the player can shoot flaming fireballs using the press button of the joystick).
 
 ![demoVideo](https://user-images.githubusercontent.com/56949829/71327849-67d8ef80-2516-11ea-9639-4e33b697c5ad.gif)
-![demo](https://user-images.githubusercontent.com/56949829/71327547-905eea80-2512-11ea-98b8-d528d649f519.gif)
-
 
 ## Meeting the requirements
 
