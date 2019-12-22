@@ -24,10 +24,10 @@
 
 -  **Levels**: 4 levels with different bricks layouts
 
-![level1](https://user-images.githubusercontent.com/56949829/70380951-9918c380-194b-11ea-8a85-8cbd7294dd19.png)
-![level2](https://user-images.githubusercontent.com/56949829/70380976-d54c2400-194b-11ea-8012-7a39f024a906.png)
-![level3](https://user-images.githubusercontent.com/56949829/70380908-0ed05f80-194b-11ea-8f8a-7c31ebbd64b5.jpg)
-![level4](https://user-images.githubusercontent.com/56949829/70380984-f44ab600-194b-11ea-854f-59494bf9604d.png)
+![level1](https://user-images.githubusercontent.com/56949829/71326809-b2ec0600-2508-11ea-87ab-038c5bd88c95.png)
+![level2](https://user-images.githubusercontent.com/56949829/71326789-889a4880-2508-11ea-8ff1-46b5a92951b6.png)
+![level3](https://user-images.githubusercontent.com/56949829/71326799-95b73780-2508-11ea-9d2b-683a8b47e247.jpg)
+![level4](https://user-images.githubusercontent.com/56949829/71326801-a1a2f980-2508-11ea-8daa-c7b5b121e85d.png)
 
 -  **Lives**:  at the beginning of every level the number of lives is 3. The number is decreased with one when the paddle misses the bouncing ball.
 
