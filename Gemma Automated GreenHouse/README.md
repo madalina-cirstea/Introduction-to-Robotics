@@ -1,7 +1,7 @@
 # Gemma v1.0 Automated GreenHouse
 ...
 
-## Users Instructions
+## User Instructions
 ### Remote
 ![remote](https://user-images.githubusercontent.com/56949829/75142137-178b3300-56fb-11ea-8276-287644a78839.png)
 
@@ -11,7 +11,7 @@ In this mode you can manually control all functionalities implemented in Gemma v
    - turn water pump ON and OFF
    
 ## Automatic Mode
-Gemma v1.0 can run automatically.
+Gemma v1.0 can successfully operate autonomously based on the values recorded by the sensors.
 
 ## Hardware componenets
 
