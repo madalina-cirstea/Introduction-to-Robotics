@@ -40,8 +40,9 @@ If the air temperature is within normal parameters we can analize **air humidity
 - greenHouse plastic wrap
 
 ## Used liraries
+- Servo.h for controling the servo motors
 - for LCD display: tft_ili9163c, Adafruit_GFX, SPI
 - for air temperature and humidity sensor: DHT
-- for water proof soil temperature sensor: 
+- for water proof soil temperature sensor: OneWire, DallasTemperature
 
 [Let's meet Bill! (of materials)](https://docs.google.com/spreadsheets/d/1Htry010sDG5Vxl1XxuDkIDsEU6a6pIBbHVVmY9l-o_E/edit#gid=1130803135)
