@@ -13,7 +13,7 @@ In this mode you can manually control all functionalities implemented in Gemma v
 ## Automatic Mode
 Gemma v1.0 can successfully operate autonomously based on the values recorded by the sensors (two soil humidity sensors, one soil temperature sensor and one air temperature and humidity sensor).
 
-Thresholds set to maintain the **optimum soil humidity** inside the greenHouse: 350 - 450 VMC (measured in VMC - volumetric moisture content). If the soil humidity exceeds the maximum permissible dryness threshold (maxDrynessThreshold) - soil is fully dried, than the water pump should be turned on and should remain in this state before the soil humidity drops below this level. If the soil humidity is below the minimum permissible dryness threshold (minDrynessThreshold) - soil is fully watered, than the water pump should be turned off. In an optimal environent soil humidity should remain between minimum and maximum permissible dryness threshold.
+Thresholds set to maintain the **optimum soil humidity** inside the greenHouse: 350 - 450 VMC (measured in VMC - volumetric moisture content). If the soil humidity exceeds the maximum permissible dryness threshold (maxDrynessThreshold) - soil is fully dried, than the water pump should be turned on and should remain in this state before the soil humidity drops below this level. If the soil humidity is below the minimum permissible dryness threshold (minDrynessThreshold) - soil is fully watered, than the water pump should be turned off. In an optimal environment soil humidity should remain between minimum and maximum permissible dryness threshold.
 
 Thresholds set to maintain the **optimum air temperature** inside the greenHouse: 10.00 - 30.00 C (measured in C - celsius degrees). If the tempearture rises above the maximum air temperature threshold (maxAirTemperatureThreshold),  both front and back trapdoors must be opened. If the temperature drops below the minimum air temperature threshold (minAirTemperatureThreshold), both trapdoors must be closed.
 
@@ -21,6 +21,7 @@ If the air temperature is within normal parameters we can analize **air humidity
  
 ## Hardware componenets
 
+- Arduino MEGA 2560
 - Non Submersible Water Pump
 - Relay SRD-05VDC-SL-C
 - 2 x Soil Moisture Sensor
@@ -30,5 +31,11 @@ If the air temperature is within normal parameters we can analize **air humidity
 - Infrared remote control + Receiver
 - TFT Module 1.44 (ILI9163C)
 - Power Source, 9V Battery + Adapter
+
+### Other components:
+- irrigation system components (connectors, hose, dyke, etc)
+- hobby glass
+- wooden frame
+- greenHouse plastic wrap
 
 [Let's meet Bill! (of materials)](https://docs.google.com/spreadsheets/d/1Htry010sDG5Vxl1XxuDkIDsEU6a6pIBbHVVmY9l-o_E/edit#gid=1130803135)
