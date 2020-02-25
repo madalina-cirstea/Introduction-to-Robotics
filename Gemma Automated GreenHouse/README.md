@@ -1,5 +1,5 @@
 # Gemma v1.0 Automated GreenHouse
-Gemma v1.0 is a smart automated greenHouse developed as a final project for the Introduction to Robotics course held by @Unibuc Robotics.
+Gemma v1.0 is a smart automated greenHouse developed as a final project for the Introduction to Robotics course held by @Unibuc Robotics at University of Bucharest.
 
 ## User Instructions
 ### Remote
@@ -11,7 +11,7 @@ In this mode you can manually control all functionalities implemented in Gemma v
    - turn water pump ON and OFF
    
 ## Automatic Mode
-Gemma v1.0 can successfully operate autonomously based on the values recorded by the sensors (two soil humidity sensors, one soil temperature sensor and one air temperature and humidity sensor).
+Gemma v1.0 can successfully operate autonomously based on the values recorded by the sensors (two soil humidity sensors, one soil temperature sensor (water proof) and one air temperature and humidity sensor).
 
 Thresholds set to maintain the **optimum soil humidity** inside the greenHouse: 350 - 450 VMC (measured in VMC - volumetric moisture content). If the soil humidity exceeds the maximum permissible dryness threshold (maxDrynessThreshold) - soil is fully dried, than the water pump should be turned on and should remain in this state before the soil humidity drops below this level. If the soil humidity is below the minimum permissible dryness threshold (minDrynessThreshold) - soil is fully watered, than the water pump should be turned off. In an optimal environment soil humidity should remain between minimum and maximum permissible dryness threshold.
 
@@ -27,15 +27,21 @@ If the air temperature is within normal parameters we can analize **air humidity
 - 2 x Soil Moisture Sensor
 - Temperature Sensor DHT21/ AM2301 
 - Waterproof Temperature Sensor DS18B20
-- 2 x Servo Motor MG996R
+- Servo Motor MG996R (for trapdoor front)
+- Servo Motor MG995 (for trapdoor back)
 - Infrared remote control + Receiver
 - TFT Module 1.44 (ILI9163C)
 - Power Source, 9V Battery + Adapter
 
 ### Other components:
-- irrigation system components (connectors, hose, dyke, etc)
+- irrigation system components (connectors, hose, dyke, etc.)
 - hobby glass
 - wooden frame
 - greenHouse plastic wrap
+
+## Used liraries
+- for LCD display: tft_ili9163c, Adafruit_GFX, SPI
+- for air temperature and humidity sensor: DHT
+- for water proof soil temperature sensor: 
 
 [Let's meet Bill! (of materials)](https://docs.google.com/spreadsheets/d/1Htry010sDG5Vxl1XxuDkIDsEU6a6pIBbHVVmY9l-o_E/edit#gid=1130803135)
