@@ -1,5 +1,5 @@
 # Gemma v1.0 Automated GreenHouse
-...
+Gemma v1.0 is a smart automated greenHouse device developed as a final project for the Introduction to Robotics course held by @Unibuc Robotics.
 
 ## User Instructions
 ### Remote
@@ -19,7 +19,7 @@ Thresholds set to maintain the **optimum air temperature** inside the greenHouse
 
 If the air temperature is within normal parameters we can analize **air humidity** measured in %RH - relative humidity (order of relevance: temperature, than humidity). Gemma v1.0 implements a basic ventilation system for maintaining humidity under maximum threshold (40.00 %RH): two open doors for keeping air moving (but only when air temperature is within normal parameters). If both air temperature and air humidity are within normal parameters we want to keep the greenHouse closed by default.
  
-## Hardware componenets
+## Hardware components
 
 - Arduino MEGA 2560
 - Non Submersible Water Pump
