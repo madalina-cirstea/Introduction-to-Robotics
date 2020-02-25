@@ -30,3 +30,5 @@ If the air temperature is within normal parameters we can analize **air humidity
 - Infrared remote control + Receiver
 - TFT Module 1.44 (ILI9163C)
 - Power Source, 9V Battery + Adapter
+
+[Let's meet Bill! (of materials)] (https://docs.google.com/spreadsheets/d/1Htry010sDG5Vxl1XxuDkIDsEU6a6pIBbHVVmY9l-o_E/edit#gid=1130803135)
