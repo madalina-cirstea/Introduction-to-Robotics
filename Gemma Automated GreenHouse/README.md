@@ -17,7 +17,7 @@ Thresholds set to maintain the **optimum soil humidity** inside the greenHouse: 
 
 Thresholds set to maintain the **optimum air temperature** inside the greenHouse: 10.00 - 30.00 C (measured in C - celsius degrees). If the tempearture rises above the maximum air temperature threshold (maxAirTemperatureThreshold),  both front and back trapdoors must be opened. If the temperature drops below the minimum air temperature threshold (minAirTemperatureThreshold), both trapdoors must be closed.
 
-If the air temperature is within normal parameters we can analize **air humidity** measured in %RH - relative humidity (order of relevance: temperature, than humidity). Gemma v1.0 implements a basic ventilation system for keeping humidity under maximum threshold (40.00 %RH): two open doors for keeping air moving (but only when air temperature is within normal parameters). If both air temperature and air humidity are within normal parameters we want to keep the greenHouse closed by default.
+If the air temperature is within normal parameters we can analize **air humidity** measured in %RH - relative humidity (order of relevance: temperature, than humidity). Gemma v1.0 implements a basic ventilation system for maintaining humidity under maximum threshold (40.00 %RH): two open doors for keeping air moving (but only when air temperature is within normal parameters). If both air temperature and air humidity are within normal parameters we want to keep the greenHouse closed by default.
  
 ## Hardware componenets
 
