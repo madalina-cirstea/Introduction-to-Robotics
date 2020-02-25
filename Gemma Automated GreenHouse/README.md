@@ -1,5 +1,5 @@
 # Gemma v1.0 Automated GreenHouse
-Gemma v1.0 is a smart automated greenHouse device developed as a final project for the Introduction to Robotics course held by @Unibuc Robotics.
+Gemma v1.0 is a smart automated greenHouse developed as a final project for the Introduction to Robotics course held by @Unibuc Robotics.
 
 ## User Instructions
 ### Remote
