@@ -1,6 +1,9 @@
 # Gemma v1.0 Automated GreenHouse
 Gemma v1.0 is a smart automated greenHouse developed as a final project for the Introduction to Robotics course held by @Unibuc Robotics at University of Bucharest.
 
+![IMG_0630](https://user-images.githubusercontent.com/56949829/75315898-a10e4280-586c-11ea-81f6-10eda8c9e9d2.JPG)
+
+
 ## User Instructions
 ### Remote
 ![remote](https://user-images.githubusercontent.com/56949829/75142137-178b3300-56fb-11ea-8276-287644a78839.png)
@@ -47,3 +50,8 @@ If the air temperature is within normal parameters we can analize **air humidity
 
 ## BOM
 [Let's meet Bill! (of materials)](https://docs.google.com/spreadsheets/d/1Htry010sDG5Vxl1XxuDkIDsEU6a6pIBbHVVmY9l-o_E/edit#gid=1130803135)
+
+![IMG_0632](https://user-images.githubusercontent.com/56949829/75316304-9902d280-586d-11ea-9842-7c4340e2eb1e.JPG)
+
+![rotate](https://user-images.githubusercontent.com/56949829/75316241-6f49ab80-586d-11ea-8d35-3ad98bdea64a.JPG)
+
