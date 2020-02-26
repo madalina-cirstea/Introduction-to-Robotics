@@ -139,7 +139,11 @@ void validateCode() {
 
 void setup() {
   Serial.begin(9600);
+  greenHouse.display.begin();
   irrecv.enableIRIn();
+
+  greenHouse.trapdoorFront.attach(greenHouse.getTrapdoorFrontPin());
+  greenHouse.trapdoorBack.attach(greenHouse.getTrapdoorBackPin());
 
   greenHouse.displayWelcomeMessage();
   delay(4000);

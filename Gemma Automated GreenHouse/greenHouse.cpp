@@ -7,15 +7,11 @@ GreenHouse::GreenHouse(): oneWire(ONE_WIRE_BUS), sensors(&oneWire), display(__CS
   trapdoorFrontOpened = false;
   trapdoorBackOpened = false;
 
-  trapdoorFront.attach(trapdoorFrontPin);
-  trapdoorBack.attach(trapdoorBackPin);
-
   pinMode(MHsensorPinLeft, INPUT);
   pinMode(MHsensorPinRight, INPUT);
   pinMode(relayPin, OUTPUT);
 
   dht.begin();
-  display.begin();
 }
 
 bool GreenHouse::onManualMode() {
@@ -54,9 +50,17 @@ void GreenHouse::turnWaterPumpOff() {
   digitalWrite(relayPin, LOW);
 }
 
+const int GreenHouse::getTrapdoorFrontPin() {
+  return trapdoorFrontPin;
+}
+
+const int GreenHouse::getTrapdoorBackPin() {
+  return trapdoorBackPin;
+}
+
 void GreenHouse::openTrapdoorFront() {
   trapdoorFrontOpened = true;
-  for (int pos = 180; pos >= 0; pos--) {
+  for (int pos = closeAngle; pos >= openAngle; pos--) {
     trapdoorFront.write(pos);
     delay(15);
   }
@@ -64,7 +68,7 @@ void GreenHouse::openTrapdoorFront() {
 
 void GreenHouse::closeTrapdoorFront() {
   trapdoorFrontOpened = false;
-  for (int pos = 0; pos <= 180; pos++) {
+  for (int pos = openAngle; pos <= closeAngle; pos++) {
     trapdoorFront.write(pos);
     delay(15);
   }
@@ -72,7 +76,7 @@ void GreenHouse::closeTrapdoorFront() {
 
 void GreenHouse::openTrapdoorBack() {
   trapdoorBackOpened = true;
-  for (int pos = 180; pos >= 0; pos--) {
+  for (int pos = closeAngle; pos >= openAngle; pos--) {
     trapdoorBack.write(pos);
     delay(15);
   }
@@ -80,7 +84,7 @@ void GreenHouse::openTrapdoorBack() {
 
 void GreenHouse::closeTrapdoorBack() {
   trapdoorBackOpened = false;
-  for (int pos = 0; pos <= 180; pos++) {
+  for (int pos = openAngle; pos <= closeAngle; pos++) {
     trapdoorBack.write(pos);
     delay(15);
   }
@@ -207,7 +211,7 @@ void GreenHouse::displayRecordedValues() {
   display.setTextColor(WHITE);
   display.setTextSize(1);
   display.print(getAverageMHsoil());
-  display.println("  VMC (soil)");
+  display.println("    VMC (soil)");
   Serial.print("humidity:  ");
   Serial.print(getAverageMHsoil());
   Serial.println("  (soil)");

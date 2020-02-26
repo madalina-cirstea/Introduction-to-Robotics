@@ -25,21 +25,17 @@
 #define __DC 2
 #define __A0 3
 
+const int closeAngle = 180;
+const int openAngle = 0;
+
 const int minDrynessThreshold = 350;
 const int maxDrynessThreshold = 450;
 
 const float maxAirTemperatureThreshold = 30.00;
 const float minAirTemperatureThreshold = 10.00;
-const float maxAirHumidityThreshold = 60.00; 
+const float maxAirHumidityThreshold = 40.00;
 
 class GreenHouse {
-    TFT_ILI9163C display;
-
-    Servo trapdoorFront;
-    Servo trapdoorBack;
-    const int trapdoorFrontPin = 8;
-    const int trapdoorBackPin = 9;
-
     // soil temperature (water proof) sensor
     const int ONE_WIRE_BUS = 5;
     OneWire oneWire;
@@ -62,12 +58,20 @@ class GreenHouse {
     // waterPump
     const int relayPin = 6;
 
+    // trapdoors' pins
+    const int trapdoorFrontPin = 8;
+    const int trapdoorBackPin = 9;
+
     bool manualModeOn;
     bool waterPumpOn;
     bool trapdoorFrontOpened;
     bool trapdoorBackOpened;
 
   public:
+    TFT_ILI9163C display;
+    Servo trapdoorFront;
+    Servo trapdoorBack;
+
     GreenHouse();
 
     // soil humidity
@@ -87,6 +91,10 @@ class GreenHouse {
     // air humidity
     void recordAirHumidity();
     float getRecordedAirHumidity();
+
+    // trapdoors' pins
+    const int getTrapdoorFrontPin();
+    const int getTrapdoorBackPin();
 
     bool onManualMode();
     bool isWaterPumpOn();
